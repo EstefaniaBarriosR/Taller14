@@ -1,0 +1,29 @@
+.contenido-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tarjeta-registro-exitoso{
+    width: 50%;    
+    text-align: center;
+    background-color: var(--colorFormulario);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;   
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);    
+}
+
+.confRegistro-img{
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.confRegistro-titulo{
+    font-size: 1.5rem;
+    font-family: var(--secondaryFont);
+    margin: 10px auto;
+}

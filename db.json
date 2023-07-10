@@ -1,0 +1,38 @@
+{
+  "personas": [
+    {
+      "nombre": "Maria",
+      "apellido": "Magdalena",
+      "id": "52395748",
+      "telefono": "3203845175",
+      "edad": "72",
+      "especialidad": "Cardiología"
+    },
+    {
+      "nombre": "Pepito",
+      "apellido": "Perez",
+      "id": "19458753",
+      "telefono": "3105847592",
+      "edad": "42",
+      "especialidad": "Rehabilitación física"
+    }
+  ],
+  "doctores": [
+    {
+      "nombre": "Andres",
+      "apellido": "Abril",
+      "id": "1038903874",
+      "especialidad": "Medicina interna",
+      "consultorio": "203",
+      "correo": "abrilpenasmil@correo.com"
+    },
+    {
+      "nombre": "Lorena",
+      "apellido": "Linares",
+      "id": "1135485175",
+      "especialidad": "Dermatología",
+      "consultorio": "507",
+      "correo": "lorenalunares@correo.com"
+    }
+  ]
+}

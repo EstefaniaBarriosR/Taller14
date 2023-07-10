@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="../img/icon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="../styles/base/base.css">
+    <link rel="stylesheet" href="../styles/listado.css">
+
+    <title>Doctores</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="../img/logo.png" class="encabezado__logo" alt="Logo medicina">
+        <nav>
+            <ul class="encabezado__lista">
+                <li class="encabezado__lista-item"><a href="#">Home</a>
+                </li>
+                <li class="encabezado__lista-item"><a href="./lista_personas.html">Personas</a></li>
+                <li class="encabezado__lista-selectedItem"><a href="./lista_doctores.html">Doctores</a></li>
+                <li class="encabezado__lista-item"><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="lista-container">
+        <section class="lista__encabezado">
+            <h2 class="lista__titulo">Lista de doctores</h2>
+            <a href="../pages/registro_doctor.html" class="lista__nuevoRegistro">Registrar</a>            
+        </section>
+        <section class="lista__contenido">            
+            <ul class="lista__doctor" lista-doctor>
+            </ul>           
+        </section>
+    </main>
+    <script type="module" src="../js/doctor-controller.js"></script>
+</body>
+</html>

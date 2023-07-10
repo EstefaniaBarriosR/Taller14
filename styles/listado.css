@@ -1,0 +1,78 @@
+.lista-container{
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;    
+    background-color: var(--colorFormulario);
+    padding: 25px;      
+    border-radius: 10px;   
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+}
+
+.encabezado__persona{    
+    position: relative;
+}
+
+.delete-icon{
+    position: absolute;        
+    top: 1.2rem;
+    right: 1.2rem;   
+}
+
+.delete-icon:hover{    
+    cursor: pointer;   
+    color: red; 
+}
+
+.lista__encabezado{
+    display: flex;    
+    width: 100%;
+    position: relative;
+    justify-content: space-between;        
+    font-family: var(--secondaryFont);
+    margin-bottom: 20px;    
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--colorPrincipal);
+}
+
+.lista__titulo{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.lista__nuevoRegistro{
+    font-size: 1.5rem;
+    color: var(--colorPrincipal);
+}
+
+.persona__titulo{
+    font-size: 1.25rem;
+    font-family: var(--secondaryFont);
+    padding: 15px 20px;
+    border-radius: 10px;    
+    background-color: #FCFCFC;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+}
+
+.persona__titulo:hover{
+    background-color: #f4f4f4;
+    transition: 0.25s;
+}
+
+.tabla__lista{    
+    width: 100%;      
+    border: 1px solid #F0F0F0;    
+    font-family: var(--principalFont);
+    font-size: 0.85rem;
+}
+
+.column__campo{    
+    width: 30%;
+    padding: 7px 0px 7px 30px;
+    font-weight: 600;
+}
+
+.column__valor{        
+    padding: 7px 0px 7px 20px;    
+}
